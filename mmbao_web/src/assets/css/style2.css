@@ -1,0 +1,82 @@
+#u12container {
+    position: absolute;
+    left: 199px;
+    top: 0;
+    width: 93px;
+    height: 22px;
+    overflow: visible;
+}
+
+#u13 {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 88px;
+    height: 17px;
+    text-align: left;
+    word-wrap: break-word;
+}
+#u14container {
+    position: absolute;
+    left: 291px;
+    top: 0;
+    width: 90px;
+    height: 22px;
+    overflow: visible;
+}
+
+#u15 {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 85px;
+    height: 17px;
+    text-align: left;
+    word-wrap: break-word;
+}
+.header-container {
+    text-align: center;
+}
+
+.header-content {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    font-size: 13px;
+}
+
+.b2c, .management {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.management {
+    font-family: SimSun, sans-serif;
+}
+.b2b, .management {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.image-container {
+    position: relative;
+    width: 76px;
+    height: 21px;
+    left: 837px;
+    top: 0;
+}
+
+.hidden-text {
+    display: none;
+    /* 可以在此添加更多文本样式 */
+}
+
+/* 鼠标悬停时的样式 */
+.image-container:hover .hidden-text {
+    display: block;
+    /* 更多悬停时的文本样式 */
+}
+
+/* 如果有其他样式需要在鼠标悬停时改变，可以在这里添加 */
+.image-container:hover img {
+    /* 例如，改变图像样式 */
+}
